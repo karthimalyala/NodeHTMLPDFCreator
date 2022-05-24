@@ -1,0 +1,19 @@
+{
+    "name": "nodeapi",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node main.js"
+    },
+    "author": "FTCI",
+    "license": "ISC",
+    "keywords": [],
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "html-pdf": "^3.0.1",
+        "phantomjs-prebuilt": "^2.1.16"
+    }
+}
