@@ -5,9 +5,9 @@ Try deploying with existing deployment methods - use remote build.
 
 You need to use Postman/curl to trigger a post request.
 
-URI -  https://kmalyalanodetest.azurewebsites.net/generatehtmlpdf
+**URI **-  https://kmalyalanodetest.azurewebsites.net/generatehtmlpdf
 
-BODY of the Request:
+**BODY of the Request:**
 
 {
 	"source": {
@@ -32,8 +32,8 @@ BODY of the Request:
 	}
 }
 
-Response screenshot:
+**Response screenshot:**
 
 <img width="617" alt="image" src="https://user-images.githubusercontent.com/84483984/170003122-ef7e7b65-3ebd-4473-8daf-c8c8162d7e42.png">
 
-You will get empty response from postman, Try fixing it by checking the logs
+First. you will get empty response from postman, Try fixing it by checking the logs
