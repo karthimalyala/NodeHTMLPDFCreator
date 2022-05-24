@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json({ extended: true, limit: '20mb' }));
 app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 app.use(cors({
-    origin: ['http://localhost:4200', 'https://azuswftciqacmxapp.usw-uat001.appserviceenvironment.net', '']
+    origin: ['http://localhost:4200', '', '']
 }));
 
 app.post("/generatepdf", (req, res) => {
